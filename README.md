@@ -16,6 +16,22 @@ cargo install cargo-watch
 cargo watch -x check -x test -x run
 ```
 
+### cargo-edit
+
+This tool extends Cargo to allow you to add, remove, and upgrade dependencies by modifying your Cargo.toml file from the command line.
+
+install:
+```bash
+cargo install cargo-edit
+```
+
+```bash
+cargo add
+cargo rm
+cargo upgrade
+cargo set-version
+```
+
 ### Code Coverage
 
 The author is recommending 'cargo-tarpaulin'. 
