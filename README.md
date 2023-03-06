@@ -10,10 +10,10 @@ Start the app with
 cargo run
 ```
 
-Then send a request to the backend
+Then send a request to the health endpoint
 
 ```bash
-curl http://127.0.0.1:8000
+curl -v http://127.0.0.1:8000/health_check
 ```
 
 
